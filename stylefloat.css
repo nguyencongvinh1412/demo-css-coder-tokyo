@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+}
+
+.main {
+    display: flex;
+    height: 600px;
+}
+
+.left-main, .right-main {
+    width: 20%;
+    float: right;
+}
+
+.center-main {
+    width: 60%;
+}
+
+.header iframe, .footer iframe {
+    width: 100%;
+}
+
+.header iframe {
+    height: 100px;
+}
+
+.footer iframe {
+    height: 40px;
+}
+
+.left-main iframe, .center-main iframe, .right-main iframe {
+    height: 100%;
+    width: 100%;
+}
+
